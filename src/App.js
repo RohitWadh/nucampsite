@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import NucampLogo from './app/assets/img/logo.png';
+import { Container, Navbar, NavbarBrand } from 'reactstrap';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      hello nucamp!
+      <Navbar dark color='primary' sticky='top' expand='md'>
+        <Container>
+          <NavbarBrand href = '/'>
+            <img src={NucampLogo} alt='nucamp logo'></img>
+
+          </NavbarBrand>
+        </Container>
+      </Navbar>
+    I am ready for workshop!
     </div>
   );
 }
