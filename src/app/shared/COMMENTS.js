@@ -1,5 +1,5 @@
 export const COMMENTS = [
-    {
+     {
         id: 0,
         campsiteId: 0,
         rating: 5,
